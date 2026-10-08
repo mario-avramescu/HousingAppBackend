@@ -2,7 +2,7 @@
 
 REST API built with **FastAPI** that suggests housing prices using a **Random Forest** model trained on the California Housing dataset. Includes user authentication and a clean, layered project structure.
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E)
 ![uv](https://img.shields.io/badge/uv-managed-purple)
