@@ -121,14 +121,3 @@ curl -X POST http://127.0.0.1:8000/suggested-price \
 | Categorical preprocessing | One-hot encoding |
 
 The whole preprocessing chain lives inside a single scikit-learn `Pipeline`, so the API sends raw input and gets a price back with no manual transformations.
-
-## 🗺️ Roadmap
-
-- [ ] Add evaluation metrics (RMSE, R²) to this README
-- [ ] Docker support
-- [ ] Automated tests
-- [ ] CI with GitHub Actions
-
-## 📄 License
-
-MIT
