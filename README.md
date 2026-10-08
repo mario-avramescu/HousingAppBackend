@@ -13,7 +13,7 @@ REST API built with **FastAPI** that suggests housing prices using a **Random Fo
 - Model loaded once at startup via FastAPI `lifespan`
 - User authentication
 - Layered architecture: routers → services → models/schemas
-- Preprocessing bundled inside the model pipeline (imputation, feature engineering, scaling, one-hot encoding)
+- Preprocessing bundled inside the model pipeline (imputation, feature engineering, scaling, one-hot encoding
 - Interactive API docs (Swagger UI)
 
 ## 🧰 Tech Stack
@@ -120,4 +120,3 @@ curl -X POST http://127.0.0.1:8000/suggested-price \
 | Numeric preprocessing | Median imputation, combined attributes, standard scaling |
 | Categorical preprocessing | One-hot encoding |
 
-The whole preprocessing chain lives inside a single scikit-learn `Pipeline`, so the API sends raw input and gets a price back with no manual transformations.
